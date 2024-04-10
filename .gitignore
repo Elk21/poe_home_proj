@@ -1,0 +1,28 @@
+# Ignore editor backup and swap files.
+*.swp
+*.~
+
+# Ignore temporary files.
+*.tmp
+*.tmp~
+
+# Ignore JetBrains IDE config files.
+.idea/
+
+# Ignore Python virtual environment.
+.venv/
+
+# Ignore output of auto-formatter.
+*.py[co]
+
+# Ignore output of test runner.
+.pytest_cache/
+__pychache__
+
+# Ignore output of coverage tool.
+.coverage
+coverage.xml
+
+# Ignore cache files and browsing history of cURL command line tool.
+.curl-cache/
+.curl/
