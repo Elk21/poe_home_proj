@@ -90,6 +90,28 @@ def get_currency_overview_fragment(league):
     return get_currency_overview_by_type(league, 'Fragment')
 
 
+def get_currency_name_by_id(id):
+    """
+    Retrieves currency name by its id from PoeNinja API currency overview
+    
+    Parameters:
+        id (int): id of the currency to retrieve name for
+    
+    Returns:
+        str: name of the currency with given id
+    """
+    data = get_currency_overview('Necropolis', 'Currency')
+    for currency in data['currencyDetails']:
+        if currency['id'] == id:
+            return currency['name']
 
-print(get_item_history('Necropolis', 'BaseType', '109670'))
+
+
+
+# print(get_currency_name_by_id(21))
+# with open('test.json', 'w+') as f:
+#     a= get_currency_overview('Necropolis', 'Currency')
+#     json.dump(a, f)
+
+# print(get_item_history('Necropolis', 'BaseType', '109670'))
 
