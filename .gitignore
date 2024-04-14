@@ -26,3 +26,5 @@ coverage.xml
 # Ignore cache files and browsing history of cURL command line tool.
 .curl-cache/
 .curl/
+
+data/tft/*
