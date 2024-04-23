@@ -11,7 +11,7 @@
 
 # Ignore Python virtual environment.
 .venv/
-
+venv/
 # Ignore output of auto-formatter.
 *.py[co]
 
