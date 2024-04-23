@@ -9,3 +9,4 @@ smmap==5.0.1
 tzdata==2024.1
 streamlit==1.33.0
 requests==2.31.0
+pytest==8.1.1
