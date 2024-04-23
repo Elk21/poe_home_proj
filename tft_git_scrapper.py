@@ -1,7 +1,7 @@
 from git import Repo, Commit
 import os, io
 
-PATH_TO_TFT_GIT_REPO = "tft"  # set path to your TFT git repo
+PATH_TO_TFT_GIT_REPO = "tft_git_repo"  # set path to your TFT git repo
 GIT_URL = "https://github.com/The-Forbidden-Trove/tft-data-prices.git"
 FILE_NAMES = [
     "bulk-beasts.json",

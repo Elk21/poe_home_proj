@@ -29,3 +29,7 @@ coverage.xml
 
 data/tft/*
 data/poe_ninja/*
+
+tft/
+
+venv.sh
