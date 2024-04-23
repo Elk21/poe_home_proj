@@ -47,7 +47,7 @@ def extract_file_from_commit(commit: Commit, file_name: str) -> None:
 
 
 def get_tft_history_files(
-    file_names: list[str] = FILE_NAMES, log: str = log, n: int = int("inf")
+    file_names: list[str] = FILE_NAMES, log: str = log, n: int = 5
 ) -> None:
     """
     Fetches `n` commits from the TFT price repo and extracts the specified files from them.

@@ -28,3 +28,4 @@ coverage.xml
 .curl/
 
 data/tft/*
+data/poe_ninja/*

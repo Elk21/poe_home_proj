@@ -1,0 +1,261 @@
+{
+    "payCurrencyGraphData": [
+        {
+            "count": 5,
+            "value": 40.0,
+            "daysAgo": 24
+        },
+        {
+            "count": 14,
+            "value": 40.0,
+            "daysAgo": 23
+        },
+        {
+            "count": 17,
+            "value": 40.0,
+            "daysAgo": 22
+        },
+        {
+            "count": 22,
+            "value": 40.0,
+            "daysAgo": 21
+        },
+        {
+            "count": 23,
+            "value": 39.92,
+            "daysAgo": 20
+        },
+        {
+            "count": 23,
+            "value": 39.92,
+            "daysAgo": 19
+        },
+        {
+            "count": 32,
+            "value": 35.47,
+            "daysAgo": 18
+        },
+        {
+            "count": 34,
+            "value": 35.0,
+            "daysAgo": 17
+        },
+        {
+            "count": 40,
+            "value": 33.9,
+            "daysAgo": 16
+        },
+        {
+            "count": 37,
+            "value": 33.96,
+            "daysAgo": 15
+        },
+        {
+            "count": 36,
+            "value": 35.0,
+            "daysAgo": 14
+        },
+        {
+            "count": 40,
+            "value": 35.0,
+            "daysAgo": 13
+        },
+        {
+            "count": 36,
+            "value": 35.0,
+            "daysAgo": 12
+        },
+        {
+            "count": 33,
+            "value": 35.2,
+            "daysAgo": 11
+        },
+        {
+            "count": 31,
+            "value": 36.17773,
+            "daysAgo": 10
+        },
+        {
+            "count": 29,
+            "value": 39.89334,
+            "daysAgo": 9
+        },
+        {
+            "count": 37,
+            "value": 39.87,
+            "daysAgo": 8
+        },
+        {
+            "count": 36,
+            "value": 39.85834,
+            "daysAgo": 7
+        },
+        {
+            "count": 33,
+            "value": 40.0,
+            "daysAgo": 6
+        },
+        {
+            "count": 33,
+            "value": 40.0,
+            "daysAgo": 5
+        },
+        {
+            "count": 32,
+            "value": 40.0,
+            "daysAgo": 4
+        },
+        {
+            "count": 34,
+            "value": 40.0,
+            "daysAgo": 3
+        },
+        {
+            "count": 30,
+            "value": 40.0,
+            "daysAgo": 2
+        },
+        {
+            "count": 28,
+            "value": 40.0,
+            "daysAgo": 1
+        },
+        {
+            "count": 25,
+            "value": 52.66,
+            "daysAgo": 0
+        }
+    ],
+    "receiveCurrencyGraphData": [
+        {
+            "count": 89,
+            "value": 0.24167,
+            "daysAgo": 25
+        },
+        {
+            "count": 314,
+            "value": 0.04762,
+            "daysAgo": 24
+        },
+        {
+            "count": 400,
+            "value": 0.03571,
+            "daysAgo": 23
+        },
+        {
+            "count": 400,
+            "value": 0.03258,
+            "daysAgo": 22
+        },
+        {
+            "count": 400,
+            "value": 0.03226,
+            "daysAgo": 21
+        },
+        {
+            "count": 400,
+            "value": 0.03226,
+            "daysAgo": 20
+        },
+        {
+            "count": 400,
+            "value": 0.03226,
+            "daysAgo": 19
+        },
+        {
+            "count": 400,
+            "value": 0.03226,
+            "daysAgo": 18
+        },
+        {
+            "count": 400,
+            "value": 0.03226,
+            "daysAgo": 17
+        },
+        {
+            "count": 400,
+            "value": 0.03322,
+            "daysAgo": 16
+        },
+        {
+            "count": 400,
+            "value": 0.03322,
+            "daysAgo": 15
+        },
+        {
+            "count": 400,
+            "value": 0.03333,
+            "daysAgo": 14
+        },
+        {
+            "count": 400,
+            "value": 0.0326,
+            "daysAgo": 13
+        },
+        {
+            "count": 400,
+            "value": 0.03226,
+            "daysAgo": 12
+        },
+        {
+            "count": 400,
+            "value": 0.03226,
+            "daysAgo": 11
+        },
+        {
+            "count": 400,
+            "value": 0.0322,
+            "daysAgo": 10
+        },
+        {
+            "count": 400,
+            "value": 0.03225,
+            "daysAgo": 9
+        },
+        {
+            "count": 400,
+            "value": 0.03076,
+            "daysAgo": 8
+        },
+        {
+            "count": 400,
+            "value": 0.02698,
+            "daysAgo": 7
+        },
+        {
+            "count": 400,
+            "value": 0.025,
+            "daysAgo": 6
+        },
+        {
+            "count": 400,
+            "value": 0.025,
+            "daysAgo": 5
+        },
+        {
+            "count": 400,
+            "value": 0.025,
+            "daysAgo": 4
+        },
+        {
+            "count": 400,
+            "value": 0.02381,
+            "daysAgo": 3
+        },
+        {
+            "count": 400,
+            "value": 0.02364,
+            "daysAgo": 2
+        },
+        {
+            "count": 400,
+            "value": 0.02,
+            "daysAgo": 1
+        },
+        {
+            "count": 400,
+            "value": 0.02,
+            "daysAgo": 0
+        }
+    ]
+}
