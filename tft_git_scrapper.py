@@ -1,7 +1,8 @@
 from git import Repo, Commit
 import os, io
 
-PATH_TO_TFT_GIT_REPO = "d:/code/tft-data-prices"  # set path to your TFT git repo
+PATH_TO_TFT_GIT_REPO = "tft"  # set path to your TFT git repo
+GIT_URL = "https://github.com/The-Forbidden-Trove/tft-data-prices.git"
 FILE_NAMES = [
     "bulk-beasts.json",
     "bulk-breach.json",
@@ -20,10 +21,6 @@ FILE_NAMES = [
     "hideout.json",
     "service.json",
 ]
-
-
-repo = Repo(PATH_TO_TFT_GIT_REPO)
-log = repo.git.log()
 
 
 def extract_file_from_commit(commit: Commit, file_name: str) -> None:
@@ -47,7 +44,7 @@ def extract_file_from_commit(commit: Commit, file_name: str) -> None:
 
 
 def get_tft_history_files(
-    file_names: list[str] = FILE_NAMES, log: str = log, n: int = int("inf")
+    file_names: list[str] = FILE_NAMES, log: str = '', n: int = 5
 ) -> None:
     """
     Fetches `n` commits from the TFT price repo and extracts the specified files from them.
@@ -65,3 +62,11 @@ def get_tft_history_files(
 
         for f in file_names:
             extract_file_from_commit(commit, f)
+
+if __name__=="__main__":
+    if not os.path.exists(PATH_TO_TFT_GIT_REPO):
+        Repo.clone_from(GIT_URL, PATH_TO_TFT_GIT_REPO)
+    repo = Repo(PATH_TO_TFT_GIT_REPO)
+    log = repo.git.log()
+    get_tft_history_files() 
+
