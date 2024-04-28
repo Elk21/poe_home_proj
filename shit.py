@@ -125,7 +125,7 @@ def dump_all_currency_history() -> None:
             print(i, e)
 
 print(123)
-# dump_all_currency_history()
+dump_all_currency_history()
 
 # data = poe_ninja_api.get_currency_history('Necropolis', 'Currency', str(3))
 # save_currency_history(data, 3, save=True)
